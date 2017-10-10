@@ -1,0 +1,13 @@
+{
+	"position":{
+		"x":10,
+		"y":10
+	},
+	"size":{
+		"w":20,
+		"h":10
+	},
+	"alpha":120,
+	"mode":1,
+	"watermark":"xxxx.png"
+}
