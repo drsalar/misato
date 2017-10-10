@@ -108,6 +108,12 @@ func calOffect(x1, y1 int, x2, y2 int) (pt image.Point) {
 	case TOP_LEFT:
 		pt = image.Pt(conf.Margin.W, conf.Margin.H)
 		return
+	case TOP_RIGHT:
+		pt = image.Pt(x1-x2-conf.Margin.W, conf.Margin.H)
+		return
+	case BOTTOM_LEFT:
+		pt = image.Pt(conf.Margin.W, y1-y2-conf.Margin.H)
+		return
 	case BOTTOM_RIGHT:
 		pt = image.Pt(x1-x2-conf.Margin.W, y1-y2-conf.Margin.H)
 		return
