@@ -1,13 +1,13 @@
 {
-	"position":{
-		"x":10,
-		"y":10
+	"margin":{
+		"w":10,
+		"h":10
 	},
 	"size":{
 		"w":20,
 		"h":10
 	},
 	"alpha":120,
-	"mode":1,
+	"mode":3,
 	"watermark":"xxxx.png"
 }
